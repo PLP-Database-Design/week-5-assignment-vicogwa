@@ -1,0 +1,5 @@
+# Apply LF line endings to all files, except node_modules
+* text=auto
+
+# Ignore line ending changes in node_modules
+node_modules/* -text
